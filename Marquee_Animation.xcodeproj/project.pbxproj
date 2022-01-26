@@ -11,6 +11,7 @@
 		919B5DDA27A1FEC600657E78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B5DD927A1FEC600657E78 /* ContentView.swift */; };
 		919B5DDC27A1FEC700657E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919B5DDB27A1FEC700657E78 /* Assets.xcassets */; };
 		919B5DDF27A1FEC700657E78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919B5DDE27A1FEC700657E78 /* Preview Assets.xcassets */; };
+		919B5DE727A2012F00657E78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B5DE627A2012F00657E78 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		919B5DD927A1FEC600657E78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		919B5DDB27A1FEC700657E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919B5DDE27A1FEC700657E78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919B5DE627A2012F00657E78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				919B5DD727A1FEC600657E78 /* Marquee_AnimationApp.swift */,
 				919B5DD927A1FEC600657E78 /* ContentView.swift */,
+				919B5DE527A2012400657E78 /* Views */,
 				919B5DDB27A1FEC700657E78 /* Assets.xcassets */,
 				919B5DDD27A1FEC700657E78 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				919B5DDE27A1FEC700657E78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		919B5DE527A2012400657E78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919B5DE627A2012F00657E78 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919B5DE727A2012F00657E78 /* HomeView.swift in Sources */,
 				919B5DDA27A1FEC600657E78 /* ContentView.swift in Sources */,
 				919B5DD827A1FEC600657E78 /* Marquee_AnimationApp.swift in Sources */,
 			);
